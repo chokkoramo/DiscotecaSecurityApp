@@ -14,12 +14,12 @@
 		4B6ADEFB2E95BD3D00B4FAD8 /* Exceptions for "DiscotecaSecurityApp" folder in "DiscotecaSecurityApp" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
-				Models/EntryRecord.swift,
-				Models/Reservation.swift,
+				Modelos/RegistroEntrada.swift,
+				Modelos/Reserva.swift,
 				ViewModels/AppViewModel.swift,
-				Views/DashboardView.swift,
-				Views/ReportsViews.swift,
-				Views/ReservationsView.swift,
+				Vistas/DashboardView.swift,
+				Vistas/ReportesViews.swift,
+				Vistas/ReservasView.swift,
 			);
 			target = 4B6ADED02E95B6B000B4FAD8 /* DiscotecaSecurityApp */;
 		};
