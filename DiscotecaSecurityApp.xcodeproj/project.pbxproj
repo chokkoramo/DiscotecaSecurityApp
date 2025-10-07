@@ -10,9 +10,27 @@
 		4B6ADED12E95B6B000B4FAD8 /* DiscotecaSecurityApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DiscotecaSecurityApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		4B6ADEFB2E95BD3D00B4FAD8 /* Exceptions for "DiscotecaSecurityApp" folder in "DiscotecaSecurityApp" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Models/EntryRecord.swift,
+				Models/Reservation.swift,
+				ViewModels/AppViewModel.swift,
+				Views/DashboardView.swift,
+				Views/ReportsViews.swift,
+				Views/ReservationsView.swift,
+			);
+			target = 4B6ADED02E95B6B000B4FAD8 /* DiscotecaSecurityApp */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		4B6ADED32E95B6B000B4FAD8 /* DiscotecaSecurityApp */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				4B6ADEFB2E95BD3D00B4FAD8 /* Exceptions for "DiscotecaSecurityApp" folder in "DiscotecaSecurityApp" target */,
+			);
 			path = DiscotecaSecurityApp;
 			sourceTree = "<group>";
 		};
